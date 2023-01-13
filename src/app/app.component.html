@@ -1,0 +1,66 @@
+<!--
+<mat-toolbar color="primary">
+  <button mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </button>
+  <a mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </a>
+</mat-toolbar>
+
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<button mat-button color="accent">Test</button>
+
+<div class="align-items">
+  <button mat-icon-button>
+    <mat-icon svgIcon="fas:bug"></mat-icon>
+  </button>
+  <button mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </button>
+  <a mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </a>
+  <button mat-icon-button>
+    <mat-icon fontIcon="bug_report"></mat-icon>
+  </button>
+</div>
+
+<hr />
+
+<h3>Icon position differs between button and anchor</h3>
+<div class="vertical">
+  <button mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </button>
+  <a mat-icon-button>
+    <fa-icon [icon]="['fas', 'bug']" size="2xs"></fa-icon>
+  </a>
+</div>
+-->
+<h3>
+  Grid Tile Footer changes Icon position differently for button and anchor
+</h3>
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    1
+    <mat-grid-tile-footer>
+      <button mat-icon-button>
+        <mat-icon svgIcon="fas:bug"></mat-icon>
+      </button>
+      <a mat-icon-button>
+        <mat-icon svgIcon="fas:bug"></mat-icon>
+      </a>
+      <button mat-icon-button>
+        <mat-icon fontIcon="bug_report"></mat-icon>
+      </button>
+      <a mat-icon-button>
+        <mat-icon fontIcon="bug_report"></mat-icon>
+      </a>
+    </mat-grid-tile-footer>
+  </mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list>

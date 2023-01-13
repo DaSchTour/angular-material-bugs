@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-grid-tile {
+  background: lightblue;
+}

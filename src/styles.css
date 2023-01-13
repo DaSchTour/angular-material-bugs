@@ -1,0 +1,16 @@
+/* Add application styles & imports to this file! */
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.ng-fa-icon {
+  --mdc-icon-button-icon-size: 18px;
+}
+
+.mat-icon .svg-inline--fa {
+  --mdc-icon-button-icon-size: 18px;
+}
+
+body {
+  margin: 0;
+}
